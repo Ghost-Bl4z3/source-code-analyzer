@@ -17,15 +17,15 @@ A simple python tool for analyzing web source code and extracting useful recon d
 
 
 ### Analyze a file
-- python Source_Code_Analyzer.py --file sample-source.html
+- python3 source_code_analyzer.py --file sample-source.html
 
 
 ## Use Internal Wordlist
-- python Source_Code_Analyzer.py --file sample-source.html --internal
+- python3 source_code_analyzer.py --file sample-source.html --internal
 
 
 ## Use Custom Wordlist
-- python Source_Code_Analyzer.py --file sample-source.html --wordlist wordlist.txt
+- python3 source_code_analyzer.py --file sample-source.html --wordlist wordlist.txt
 
 
 ## ⚠️ DISCLAIMER
