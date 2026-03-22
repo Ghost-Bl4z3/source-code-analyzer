@@ -26,34 +26,21 @@ A simple python tool for analyzing web source code and extracting useful recon d
 ## Example Output
 
 [KEYWORDS FOUND - 24]
+
 /.env
-/admin
-/admin/stats/overview
-/api/backup
 ...
 
 
 IPS FOUND: 3
 192.168.1.105
-10.0.0.23
-172.16.4.88
+...
+
 
 EMAILS FOUND: 7
 press@acmecorp.io
 john@acmecorp.io
 ...
 
-URLS FOUND: 13
-https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css
-http://172.16.4.88:5432
-https://js.stripe.com/v3/
-...
-
-
-JS FILES FOUND: 12
-/static/js/app.js
-/static/js/auth.js
-...
 
 ## ⚠️ DISCLAIMER
 This tool is intended for educational purposes and authorized security testing only
